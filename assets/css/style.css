@@ -438,7 +438,7 @@ p.section-title-white {
 }
 
 #navigation.navbar-fixed #main-menu ul li a {
-	color: #232434;
+	color: #ff3b30;
 }
 
 #navigation.navbar-fixed #main-menu ul li a:hover,
@@ -4342,13 +4342,13 @@ video {
 .footer {
 	padding-bottom: 50px;
 	padding-top: 80px;
-	background: #232434;
+	background: black;
 }
 
 .footer_logo {}
 
 .footer_logo img {
-	width: 150px;
+	width: 250px;
 }
 
 .footer_logo p {
@@ -5301,7 +5301,7 @@ video {
 }
 
 .main-menu {
-	max-width: 1430px !important;
+	max-width: 1480px !important;
 }
 
 .single_process {
@@ -5451,9 +5451,9 @@ input[name="agreement"]:checked+.form-check-label {
 	font-size: 1rem;
 	box-shadow: 0 2px 8px 0 rgba(37, 99, 235, 0.08);
 	transition: background 0.18s;
-	position: absolute;
+	position: fixed;
 	top: 5px;
-	right: 0;
+	right: 15px;
 }
 
 .apply-form-btn:hover,
@@ -5549,4 +5549,34 @@ input[name="agreement"]:checked+.form-check-label {
 .single_process h3 {
 	color:#007bff!important;
 	font-weight: 900!important;
+}
+
+.btn-block{
+	color: #ff3b30!important;
+	font-weight: 700!important;
+}
+
+.card{
+	border-color:#007bff!important;
+}
+
+.ask-more{
+	color: #ff3b30!important;
+	font-weight: 700!important;
+}
+
+.footer-btn{
+	background: #007bff;
+	border-radius: 10px;
+	color:white;
+	padding: 10px;
+	font-size:20px;
+	font-weight:700;
+	cursor: pointer!important;
+}
+
+.footer-btn:hover{
+	background:#0056b3!important;
+	color:white;
+	cursor: pointer;
 }
