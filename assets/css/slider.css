@@ -3,9 +3,9 @@
 /*------------------------------------------------------*/
 #fw_al_007{
   overflow: hidden;
-  max-height: 750px;
+  max-height: 870px;
   position: relative;
-  background: #000000;
+  /*background: #000000;*/
 }
 #fw_al_007:hover{
   cursor: -moz-grab;
@@ -17,7 +17,7 @@
 }
 #fw_al_007 > .carousel-inner > .carousel-item > img,
 #fw_al_007 > .carousel-inner > .carousel-item > a > img{
-  opacity: 0.6;
+  opacity: 1;
   margin: auto;
   width: 100% !important;
 }
@@ -139,7 +139,7 @@
 /*---------- SLIDE CAPTION ----------*/
 .fw_al_007_slide {
   left: 0;
-  top: 25%;
+  top: 45%;
   right: 0;
   margin: auto;
   position: absolute;
