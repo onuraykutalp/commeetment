@@ -5727,3 +5727,39 @@ input[name="agreement"]:checked+.form-check-label {
 	font-weight:bold;
 	color: #ff3b30;
 }
+
+@media (max-width: 1380px) {
+	#main-menu ul li {
+		padding: 0 10px;
+		font-size:12px;
+	}
+	#main-menu ul li a {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 1150px) {
+	.site-logo img{
+		height: 120px;
+		width: auto;
+	}
+	#main-menu ul li {
+		padding: 0 10px;
+	}
+	#main-menu ul li a {
+		font-size: 14px;
+	}
+	 #main-menu {
+		text-align: right;
+	 }
+}
+
+@media (max-width: 960px) {
+	.site-logo img{
+		height: 100px;
+		width: auto;
+	}
+	 #main-menu {
+		text-align: right;
+	 }
+}

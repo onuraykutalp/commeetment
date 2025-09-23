@@ -283,8 +283,9 @@
   letter-spacing: 0px;
   }
   .fw_al_007_slide > a {
-    margin: 10px 0 0 0;
-    padding: 7px 15px;
+    margin: 125px 0 0 0;
+    padding: 7px 10px;
+    font-size: 12px;
   }
   /*---------- LEFT/RIGHT CONTROL ----------*/
   .ps_control_rotate_f .carousel-control {
